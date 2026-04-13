@@ -1,6 +1,5 @@
 //Nama: Aisyah Dahayu Shabirah
 //NIM: 13224059
-//Soal 1
 
 #include <stdio.h>
 
@@ -12,11 +11,9 @@ int main (){
     scanf("%d", &radiasi);
     scanf("%d", &jam);
 
+    
     if (izin==1){
-        if (jam<6 || jam>20){
-            printf("TOLAK");
-        }
-        else if (radiasi>=6){
+        if (jam<6 || jam>20 && radiasi>=6){
             printf("TOLAK");
         }
         else {
