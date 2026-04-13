@@ -16,9 +16,6 @@ int main (){
         if (jam<6 || jam>20 && radiasi>=6){
             printf("TOLAK");
         }
-        else if (suhu >=390){
-            printf("KARANTINA");
-        }
         else {
         printf("MASUK");}
         }
@@ -29,9 +26,6 @@ int main (){
         else if (radiasi>=6){
             printf("TOLAK");
         }
-        else if (suhu >=390){
-            printf("KARANTINA");
-        }
         else {
             printf("PEMERIKSAAN");}
         }
@@ -41,19 +35,8 @@ int main (){
         else if (radiasi>=6){
             printf("TOLAK");
         }
-        else if (suhu >=390){
-            printf("KARANTINA");
-        }
     else {
         printf("TOLAK");
     }}
     return 0;
 }
-        
-
-
-
-
-
-
-
